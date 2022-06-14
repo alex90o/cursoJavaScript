@@ -36,3 +36,15 @@
 // miVariable = 3;
 // console.log(miVariable);
 // console.log(typeof miVariable);
+
+let miVariable = 3;
+ console.log(miVariable);
+
+ console.log(2+3);
+
+ function saludar () {
+    return "Hola";
+ }
+
+console.log(saludar());
+ 
