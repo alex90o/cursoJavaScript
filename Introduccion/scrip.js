@@ -69,21 +69,25 @@
 
 //Manipulacion de Tipos
 //Valores literales
+// let nombre = "Alexis";
+// console.log(nombre);
+
+// // Conversion de string a Number
+// // Number, parseInt, +
+
+// let string = '123';
+
+// console.log(Number(string));
+// console.log(parseInt(string));
+// console.log(+string);
+
+// let string2 = '123hola';
+
+// console.log(Number(string2)); // dan como resultado NaN
+// console.log(parseInt(string2)); // este si devolvio 123 -- corta cuando encuentra la primera letra
+// console.log(+string2); // dan como resultado NaN
+
+//Concatenacion
 let nombre = "Alexis";
-console.log(nombre);
-
-// Conversion de string a Number
-// Number, parseInt, +
-
-let string = '123';
-
-console.log(Number(string));
-console.log(parseInt(string));
-console.log(+string);
-
-let string2 = '123hola';
-
-console.log(Number(string2)); // dan como resultado NaN
-console.log(parseInt(string2)); // este si devolvio 123 -- corta cuando encuentra la primera letra
-console.log(+string2); // dan como resultado NaN
-
+console.log("Hola" +" "+nombre);
+console.log(`Hola  Alexis`);
