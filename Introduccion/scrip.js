@@ -93,14 +93,24 @@
 // console.log(`Hola  Alexis`);
 
 //Conversion a Booleano
+// let string ="2";
+// let number = 0;
+// console.log(Boolean(string)); //true
+// console.log(Boolean(number)); //false
+
+// console.log(!!string);
+// console.log(!!number);
+
+// //negando el valor
+// console.log(!string);
+// console.log(!number);
+
+//Conversion implicita
 let string ="2";
-let number = 0;
-console.log(Boolean(string)); //true
-console.log(Boolean(number)); //false
-
-console.log(!!string);
-console.log(!!number);
-
-//negando el valor
-console.log(!string);
-console.log(!number);
+let number = 2;
+let otroNumber = 3;
+console.log(string + number); //22
+console.log(number + string); //22
+console.log(number + otroNumber + string); //52
+console.log(number + string + otroNumber); //223
+console.log(otroNumber + string + number); //322
