@@ -80,3 +80,4 @@ let string = '123';
 console.log(Number(string));
 console.log(parseInt(string));
 console.log(+string);
+
