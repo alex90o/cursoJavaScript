@@ -65,4 +65,18 @@
 
 //console.log(prompt("Ingresa tu nombre"));
 
-console.log(confirm("Estas seguro??"));
+//console.log(confirm("Estas seguro??"));
+
+//Manipulacion de Tipos
+//Valores literales
+let nombre = "Alexis";
+console.log(nombre);
+
+// Conversion de string a Number
+// Number, parseInt, +
+
+let string = '123';
+
+console.log(Number(string));
+console.log(parseInt(string));
+console.log(+string);
