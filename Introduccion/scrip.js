@@ -88,6 +88,19 @@
 // console.log(+string2); // dan como resultado NaN
 
 //Concatenacion
-let nombre = "Alexis";
-console.log("Hola" +" "+nombre);
-console.log(`Hola  Alexis`);
+// let nombre = "Alexis";
+// console.log("Hola" +" "+nombre);
+// console.log(`Hola  Alexis`);
+
+//Conversion a Booleano
+let string ="2";
+let number = 0;
+console.log(Boolean(string)); //true
+console.log(Boolean(number)); //false
+
+console.log(!!string);
+console.log(!!number);
+
+//negando el valor
+console.log(!string);
+console.log(!number);
