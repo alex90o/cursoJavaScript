@@ -37,14 +37,32 @@
 // console.log(miVariable);
 // console.log(typeof miVariable);
 
-let miVariable = 3;
- console.log(miVariable);
+// let miVariable = 3;
+//  console.log(miVariable);
 
- console.log(2+3);
+//  console.log(2+3);
 
- function saludar () {
-    return "Hola";
- }
+//  function saludar () {
+//     return "Hola";
+//  }
 
-console.log(saludar());
- 
+// console.log(saludar());
+
+// let miVariable = false;
+
+// if (miVariable === true) {
+//     console.log("Verdadero");
+// }
+// else {
+//     console.log("Falso");
+// }
+
+//alert("hello world");
+
+//let nombre = prompt("Ingresa tu nombre");
+
+//console.log(nombre);
+
+//console.log(prompt("Ingresa tu nombre"));
+
+console.log(confirm("Estas seguro??"));
