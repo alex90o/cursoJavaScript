@@ -156,21 +156,39 @@
 
 // AND, OR, NOT
 
-//AND
-console.log("AND");
-console.log(2 === 2 && 2 > 0);//true
-console.log(2 === "2" && 2 > 0);//false
-console.log(2 === 2 && 2 < 0);//false
-console.log(2 === "2" && 2 < 0);//false
+// //AND
+// console.log("AND");
+// console.log(2 === 2 && 2 > 0);//true
+// console.log(2 === "2" && 2 > 0);//false
+// console.log(2 === 2 && 2 < 0);//false
+// console.log(2 === "2" && 2 < 0);//false
 
-//OR
-console.log("OR");
-console.log(2 === 2 || 2 > 0);//true
-console.log(2 === "2" || 2 > 0);//true
-console.log(2 === 2 || 2 < 0);//true
-console.log(2 === "2" || 2 < 0);//false
+// //OR
+// console.log("OR");
+// console.log(2 === 2 || 2 > 0);//true
+// console.log(2 === "2" || 2 > 0);//true
+// console.log(2 === 2 || 2 < 0);//true
+// console.log(2 === "2" || 2 < 0);//false
 
-//TERNARIO
-let edad = 18;
+// //TERNARIO
+// let edad = 18;
 
-console.log(edad >= 18 ? "Podes manejar" : "No tenes edad para manejar");
+// console.log(edad >= 18 ? "Podes manejar" : "No tenes edad para manejar");
+
+//Operator Precedence
+
+console.log(30 + 20 / 2);
+
+console.log((30 + 20) / 2);
+
+let nombre = "Alexis";
+let x, y;
+
+console.log(x, y);
+
+x= y = 10;
+
+console.log(x, y);
+
+
+
