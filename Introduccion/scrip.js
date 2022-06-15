@@ -121,16 +121,35 @@
 
 //Unarios (+,-,typeof)
 
-console.log(typeof "hola mundo");
-console.log(+"123");
-console.log(-"123");
-console.log(-"tres");// da NaN. No existe el -NaN
+// console.log(typeof "hola mundo");
+// console.log(+"123");
+// console.log(-"123");
+// console.log(-"tres");// da NaN. No existe el -NaN
 
-// Binarios
+// // Binarios
 
-console.log(2 + 3);
-console.log(3 - 3);
-console.log(2 * 3);
-console.log(6 / 3);
-console.log(7 % 3);
+// console.log(2 + 3);
+// console.log(3 - 3);
+// console.log(2 * 3);
+// console.log(6 / 3);
+// console.log(7 % 3);
 
+//Logicos
+
+//Binarios 
+//Mayor y Menor
+console.log(2 > 3);
+console.log(2 < 3);
+console.log(3 >= 3);
+console.log(3 <= 3);
+
+// === y ==
+console.log(2 === 2);//true
+console.log(2 === "2");//false
+console.log(2 === 3);
+console.log(2 == 3);
+console.log(3 == 3);//true
+console.log(3 == "3");//true
+
+console.log(2 !== 3);
+console.log(2 !=3);
