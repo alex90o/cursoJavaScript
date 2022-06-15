@@ -169,3 +169,8 @@ console.log(2 === 2 || 2 > 0);//true
 console.log(2 === "2" || 2 > 0);//true
 console.log(2 === 2 || 2 < 0);//true
 console.log(2 === "2" || 2 < 0);//false
+
+//TERNARIO
+let edad = 18;
+
+console.log(edad >= 18 ? "Podes manejar" : "No tenes edad para manejar");
