@@ -106,11 +106,31 @@
 // console.log(!number);
 
 //Conversion implicita
-let string ="2";
-let number = 2;
-let otroNumber = 3;
-console.log(string + number); //22
-console.log(number + string); //22
-console.log(number + otroNumber + string); //52
-console.log(number + string + otroNumber); //223
-console.log(otroNumber + string + number); //322
+// let string ="2";
+// let number = 2;
+// let otroNumber = 3;
+// console.log(string + number); //22
+// console.log(number + string); //22
+// console.log(number + otroNumber + string); //52
+// console.log(number + string + otroNumber); //223
+// console.log(otroNumber + string + number); //322
+
+//Operadores
+
+//Aritmeticos
+
+//Unarios (+,-,typeof)
+
+console.log(typeof "hola mundo");
+console.log(+"123");
+console.log(-"123");
+console.log(-"tres");// da NaN. No existe el -NaN
+
+// Binarios
+
+console.log(2 + 3);
+console.log(3 - 3);
+console.log(2 * 3);
+console.log(6 / 3);
+console.log(7 % 3);
+
