@@ -138,18 +138,34 @@
 
 //Binarios 
 //Mayor y Menor
-console.log(2 > 3);
-console.log(2 < 3);
-console.log(3 >= 3);
-console.log(3 <= 3);
+// console.log(2 > 3);
+// console.log(2 < 3);
+// console.log(3 >= 3);
+// console.log(3 <= 3);
 
-// === y ==
-console.log(2 === 2);//true
-console.log(2 === "2");//false
-console.log(2 === 3);
-console.log(2 == 3);
-console.log(3 == 3);//true
-console.log(3 == "3");//true
+// // === y ==
+// console.log(2 === 2);//true
+// console.log(2 === "2");//false
+// console.log(2 === 3);
+// console.log(2 == 3);
+// console.log(3 == 3);//true
+// console.log(3 == "3");//true
 
-console.log(2 !== 3);
-console.log(2 !=3);
+// console.log(2 !== 3);
+// console.log(2 !=3);
+
+// AND, OR, NOT
+
+//AND
+console.log("AND");
+console.log(2 === 2 && 2 > 0);//true
+console.log(2 === "2" && 2 > 0);//false
+console.log(2 === 2 && 2 < 0);//false
+console.log(2 === "2" && 2 < 0);//false
+
+//OR
+console.log("OR");
+console.log(2 === 2 || 2 > 0);//true
+console.log(2 === "2" || 2 > 0);//true
+console.log(2 === 2 || 2 < 0);//true
+console.log(2 === "2" || 2 < 0);//false
