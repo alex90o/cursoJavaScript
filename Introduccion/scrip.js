@@ -190,5 +190,11 @@ x= y = 10;
 
 console.log(x, y);
 
+x = y;
+
+y = 10;
+
+console.log(x , y);
+
 
 
