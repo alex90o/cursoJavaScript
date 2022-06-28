@@ -233,5 +233,23 @@
 
 // console.log ("hola 'casa' pan");
 
+//1)
+const firstName = prompt("ingresa tu nombre");
 
+alert(`Hola ${firstName}`);
 
+//2) 
+const firstNumber = prompt("ingresa un Numero");
+const secondNumber = prompt("ingresa otro Numero");
+
+console.log(typeof firstNumber);
+alert(`La suma de ${firstNumber} y ${secondNumber} es
+${+firstNumber + +secondNumber}`); //el + lo combierte a numero al string
+
+//3)
+const firstNumber2 = prompt("ingresa un Numero");
+const secondNumber2 = prompt("ingresa otro Numero");
+
+console.log(typeof firstNumber2);
+alert(`El doble de La suma de ${firstNumber2} y ${secondNumber2} es
+${(+firstNumber2 + +secondNumber2)*2}`);
