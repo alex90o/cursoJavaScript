@@ -205,3 +205,31 @@ var miVariable = 3;
 let otraVariable = 2;
 const otraVariableMas = 5;
 
+console.log(miVariable);
+console.log(otraVariable);
+console.log(otraVariableMas);
+
+otraVariable = 10;
+//otraVariableMas = 20; //da error
+
+const firstName = "Alexis";
+const job = "Desarrollador";
+const favouriteNumber = 7;
+
+//Hola, soy Alexis, soy Desarrollador 
+//y mi numero favorito es el 7
+
+console.log("Hola, soy "+
+firstName+ 
+', soy '+
+job +
+"y mi numero favorito es el "+
+favouriteNumber
+);
+
+console.log (
+    `Hola, soy ${firstName}, soy ${job} y mi numero favorito es el ${favouriteNumber}`
+)
+
+console.log ("hola 'casa' pan");
+
