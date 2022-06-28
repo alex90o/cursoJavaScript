@@ -177,24 +177,31 @@
 
 //Operator Precedence
 
-console.log(30 + 20 / 2);
+// console.log(30 + 20 / 2);
 
-console.log((30 + 20) / 2);
+// console.log((30 + 20) / 2);
 
-let nombre = "Alexis";
-let x, y;
+// let nombre = "Alexis";
+// let x, y;
 
-console.log(x, y);
+// console.log(x, y);
 
-x= y = 10;
+// x= y = 10;
 
-console.log(x, y);
+// console.log(x, y);
 
-x = y;
+// x = y;
 
-y = 10;
+// y = 10;
 
-console.log(x , y);
+// console.log(x , y);
 
+//variables
+//palabras reservadas para declarar una variable
 
+// var, let y const
+
+var miVariable = 3;
+let otraVariable = 2;
+const otraVariableMas = 5;
 
