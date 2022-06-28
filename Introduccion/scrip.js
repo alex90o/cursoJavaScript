@@ -233,23 +233,51 @@
 
 // console.log ("hola 'casa' pan");
 
-//1)
-const firstName = prompt("ingresa tu nombre");
+// //1)
+// const firstName = prompt("ingresa tu nombre");
 
-alert(`Hola ${firstName}`);
+// alert(`Hola ${firstName}`);
 
-//2) 
-const firstNumber = prompt("ingresa un Numero");
-const secondNumber = prompt("ingresa otro Numero");
+// //2) 
+// const firstNumber = prompt("ingresa un Numero");
+// const secondNumber = prompt("ingresa otro Numero");
 
-console.log(typeof firstNumber);
-alert(`La suma de ${firstNumber} y ${secondNumber} es
-${+firstNumber + +secondNumber}`); //el + lo combierte a numero al string
+// console.log(typeof firstNumber);
+// alert(`La suma de ${firstNumber} y ${secondNumber} es
+// ${+firstNumber + +secondNumber}`); //el + lo combierte a numero al string
 
-//3)
-const firstNumber2 = prompt("ingresa un Numero");
-const secondNumber2 = prompt("ingresa otro Numero");
+// //3)
+// const firstNumber2 = prompt("ingresa un Numero");
+// const secondNumber2 = prompt("ingresa otro Numero");
 
-console.log(typeof firstNumber2);
-alert(`El doble de La suma de ${firstNumber2} y ${secondNumber2} es
-${(+firstNumber2 + +secondNumber2)*2}`);
+// console.log(typeof firstNumber2);
+// alert(`El doble de La suma de ${firstNumber2} y ${secondNumber2} es
+// ${(+firstNumber2 + +secondNumber2)*2}`);
+
+//4)
+// const firstNumber2 = prompt("ingresa el ancho de la habitación");
+// const secondNumber2 = prompt("ingresa el alto de la habitación");
+
+// console.log(typeof firstNumber2);
+// alert(`La superficie de la Habitacion es : ${(+firstNumber2)*(+secondNumber2)}`);
+
+// //5)
+// const firstName = prompt ("Ingresa tu nombre");
+// alert(`Tu nombre en minusculas es ${firstName.toLocaleLowerCase()}`);
+
+// //6)
+// const lastName = prompt ("Ingresa tu apellido");
+// alert(`Tu apellido en mayusculas es ${lastName.toLocaleUpperCase()}`);
+
+// 7)
+const firstName = prompt ("Ingresa tu nombre");
+const lastName = prompt ("Ingresa tu apellido");
+const ege = prompt ("Ingresa tu edad");
+
+alert (
+    `Tus datos completos son:
+    Nombre: ${firstName},
+    Apellido: ${lastName},
+    Edad: ${ege}
+    `
+);
