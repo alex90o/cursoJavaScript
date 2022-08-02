@@ -28,6 +28,7 @@ else {
  //SWITCH
 
  //const weather = "DESPEJADO";
+ /*
  const weather = "fresCO";
 
  switch (weather.toUpperCase()) { //para normalizaer la informacion
@@ -46,4 +47,10 @@ else {
     default:
         console.log("El tiempo esta bueno. Disfruta del dia");
         break;
+ }
+ */
+
+ //For
+ for (let i =0; i<5; i++){
+    console.log(i+1);
  }
