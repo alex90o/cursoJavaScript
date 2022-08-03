@@ -56,7 +56,7 @@ else {
     console.log(i+1);
  }
  */
-
+/*
  //ejercicios
 
  //1)
@@ -88,3 +88,25 @@ else {
         console.log(i);
     }
  }
+ */
+//chalen
+const registro = confirm (
+    " Bienvenido al sitio, haz clic en OK para relizar le registro");
+    if (registro){
+        let registrase = prompt ("Ingrese su nombre de Usuario");
+    
+        if (registrase.length >3){
+            registrase = registrase.toLowerCase();
+            const registrasePassword = prompt("Ingrese su contraseña");
+            if (registrasePassword.length >6){
+                    alert("Se completo con existo el Registro");
+            }else alert("La contraseña debe tener almenos 6 caracteres");
+
+                
+        }else {
+                alert("El nombre de usuario tiene que ser de al menos 3 caracteres");
+            }
+        }
+    else {
+        alert("OK, te esperamos");
+    }
