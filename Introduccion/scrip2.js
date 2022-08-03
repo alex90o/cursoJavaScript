@@ -51,6 +51,17 @@ else {
  */
 
  //For
+/* 
  for (let i =0; i<5; i++){
     console.log(i+1);
+ }
+ */
+
+ //ejercicios
+
+ //1)
+ let variable = " ";
+ for (let i = 0; i<5 ; i++){
+    variable = variable + "#";
+    console.log(variable);
  }
