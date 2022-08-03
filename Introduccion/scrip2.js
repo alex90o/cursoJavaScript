@@ -65,3 +65,10 @@ else {
     variable = variable + "#";
     console.log(variable);
  }
+
+ //2)
+ for (let i=0; i<10; i++){
+    if(i%2 === 0) console.log(`El Numero ${i} es par`);
+    else console.log  (`El Numero ${i} es impar`);
+
+ }
