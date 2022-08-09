@@ -90,14 +90,17 @@ else {
  }
  */
 //chalen
+let isRegistered, registrase,registrasePassword;
+
 const registro = confirm (
     " Bienvenido al sitio, haz clic en OK para relizar le registro");
     if (registro){
-        let registrase = prompt ("Ingrese su nombre de Usuario");
+        registrase = prompt ("Ingrese su nombre de Usuario");
     
         if (registrase.length >3){
             registrase = registrase.toLowerCase();
-            const registrasePassword = prompt("Ingrese su contraseña");
+            registrasePassword = prompt("Ingrese su contraseña");
+            isRegistered = true;
             if (registrasePassword.length >6){
                     alert("Se completo con existo el Registro");
             }else alert("La contraseña debe tener almenos 6 caracteres");
@@ -109,4 +112,28 @@ const registro = confirm (
         }
     else {
         alert("OK, te esperamos");
+
     }
+
+
+    //2
+if (isRegistered) {
+    const registro = confirm ("Haz clic en Ok para iniciar sesión");
+    if (registro) {
+        const loginUsername = prompt ("Ingresa tu usuario").toLocaleLowerCase();
+        const loginPassword = prompt ("Ingresa tu password");
+        
+        if (
+            loginUsername === registrase &&
+            loginPassword === registrasePassword)
+            {
+             alert("Login Existoso !");   
+            }
+        else {
+            alert ("Alguno de los datos ingresados es incorrecto");
+        }
+    }
+    else {
+        alert("Vuelve cuando gustes");
+    }
+}
