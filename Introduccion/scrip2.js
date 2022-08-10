@@ -105,7 +105,7 @@ const registro = confirm (
             registrase = registrase.toLowerCase();
             registrasePassword = prompt("Ingrese su contraseña");
             isRegistered = true;
-            if (registrasePassword.length >6){
+            if (registrasePassword.length >= 6){
                     alert("Se completo con existo el Registro");
             }else {
                 alert("La contraseña debe tener almenos 6 caracteres");
@@ -114,6 +114,7 @@ const registro = confirm (
                 
         }else {
                 alert("El nombre de usuario tiene que ser de al menos 3 caracteres");
+                registrase = null;
             }
         }
     else {
@@ -124,23 +125,42 @@ const registro = confirm (
 
 
     //2
+    let loginPassword, loginUsername;
 if (isRegistered) {
     const registro = confirm ("Haz clic en Ok para iniciar sesión");
+    do {
+
+   
     if (registro) {
-        const loginUsername = prompt ("Ingresa tu usuario").toLocaleLowerCase();
-        const loginPassword = prompt ("Ingresa tu password");
-        
-        if (
-            loginUsername === registrase &&
-            loginPassword === registrasePassword)
-            {
-             alert("Login Existoso !");   
+         loginUsername = prompt ("Ingresa tu usuario").toLocaleLowerCase();
+         
+        if(loginUsername !== null){
+            loginUsername = loginUsername.toLowerCase();
+            loginPassword = prompt ("Ingresa tu password");
+            if (loginPassword === null){
+                //alert("Vuelve en otro mommento");
+                registro = false;
+                
             }
-        else {
-            alert ("Alguno de los datos ingresados es incorrecto");
+            else if(loginPassword === registrase &&
+                    loginPassword === registrasePassword)
+                {
+                 alert("Login Existoso !");   
+                }
+            else {
+                alert ("Alguno de los datos ingresados es incorrecto");
+                loginPassword = null;
+                loginUsername = null;
+            }
         }
+        else {
+            registro = false;
+            //alert("Vuelve cuando lo necesites");
+        }
+        
     }
     else {
         alert("Vuelve cuando gustes");
     }
+}while(registro && (!loginUsername || !loginPassword));
 }
