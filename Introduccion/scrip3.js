@@ -6,6 +6,7 @@ console.log(1+7);
 console.log(3+6);
 */
 //Declareción de la función
+/*
 function suma(n1, n2) {
     console.
     log(n1 + n2);
@@ -21,3 +22,29 @@ suma (4, 8);
 suma (30 ,56);
 
 sumaAlert (4, 8);
+*/
+//Return
+
+function sayHello () {
+    return "Hola Mundo";
+}
+
+console.log(sayHello());
+
+function suma(n1, n2) {
+    //console.log(n1 + n2);
+    return(n1 + n2);
+}
+
+console.log(suma(4,5));
+
+console.log(suma(4,5) + 5);
+
+const result = suma (2,6);
+console.log (result + 5);
+console.log (result + 20);
+
+const resultConF = ( num1, num2) => num1 + num2;
+
+console.log(resultConF(6,8));
+console.log(resultConF(6,8) + 10);
