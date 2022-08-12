@@ -24,7 +24,7 @@ suma (30 ,56);
 sumaAlert (4, 8);
 */
 //Return
-
+/*
 function sayHello () {
     return "Hola Mundo";
 }
@@ -48,3 +48,25 @@ const resultConF = ( num1, num2) => num1 + num2;
 
 console.log(resultConF(6,8));
 console.log(resultConF(6,8) + 10);
+*/
+
+//SCOPE
+ let isValid = false;
+
+function validatePermission (role){
+    let isValid = true;
+    let valiRole = "admin";
+    if (role === valiRole) {
+        let isValid = true;
+        console.log ("Dentro del if", isValid);
+    }
+    else {
+        let isValid = false;
+        console.log ("Dentro del else", isValid);
+    }
+    console.log("Dentro de la funcion", isValid);
+}
+
+validatePermission("any");
+
+console.log("A nivel Global", isValid);
