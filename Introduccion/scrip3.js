@@ -113,6 +113,7 @@ un mesanje diciendo si el numero es primo o no.
 Aclaración: Los numeros primos son aquellos que tienen exactamente 4 divisores
 */
 
+/*
 const isPrime = (number) => {
     const parsedNumber = +number;
 
@@ -142,3 +143,10 @@ if (isNumberPrimer !== undefined) {
     if(isNumberPrimer) alert("El numero es primo");
     else alert ("El numero no es primo")
 }
+*/
+
+/*
+3) Crear un programa que convierta la terperatura de grados Celsius a 
+Farenheit y viceversa. El usuario deberia ingresar la temperatura y a que
+unidad la quiere convertir.
+*/
