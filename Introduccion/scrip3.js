@@ -77,6 +77,7 @@ console.log("A nivel Global", isValid);
 Crear un programa que pida al usuarios que ingrese un numero 
 y le devuelve un mesaje indicando si el numero es positivo, negativo o si es 0.
 */
+/*
 const findNumberType = (number) => {
     let message = "";
     const parsedNumber = +number;
@@ -104,3 +105,40 @@ const chosenNumber = prompt ("Ingresa un numero");
 const response = findNumberType(chosenNumber);
 
 alert(response);
+*/
+
+/*
+2) Crear un programa que pida un numero al usuario y devuelva 
+un mesanje diciendo si el numero es primo o no.
+Aclaración: Los numeros primos son aquellos que tienen exactamente 4 divisores
+*/
+
+const isPrime = (number) => {
+    const parsedNumber = +number;
+
+    if(!parsedNumber && parsedNumber !== 0) {
+        alert ("El valor ingresado no es un numero");
+        return;
+    }
+
+    if (parsedNumber < 2) return false;
+
+    for (let i = 2; i<parsedNumber; i++) {
+
+        if (parsedNumber % i === 0) return false;
+    }
+    return true;
+        
+};
+
+
+//console.log(isPrime(2));
+
+const chosenNumber = prompt ("Ingrese un numero");
+
+const isNumberPrimer = isPrime(chosenNumber);
+
+if (isNumberPrimer !== undefined) {
+    if(isNumberPrimer) alert("El numero es primo");
+    else alert ("El numero no es primo")
+}
