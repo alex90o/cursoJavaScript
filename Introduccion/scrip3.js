@@ -170,4 +170,13 @@ const convertTemperature = (temperature, target) => {
     } else {
         alert("El formato ingresado no es valido");
     }
+};
+
+const temperatura = prompt ("Ingresa la temperatura");
+const target = prompt ("Ingrese a que unidad de medida quieres convertir");
+
+const response = convertTemperature (temperatura, target);
+
+if (response !== undefined) {
+    alert (`La temperatura en ${target.toLocaleLowerCase()} es ${response} `)
 }
