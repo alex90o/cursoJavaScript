@@ -150,3 +150,24 @@ if (isNumberPrimer !== undefined) {
 Farenheit y viceversa. El usuario deberia ingresar la temperatura y a que
 unidad la quiere convertir.
 */
+// C a F (C x 9/5) + 32
+// F a C (F - 32) x 5/9
+
+const convertTemperature = (temperature, target) => {
+    const parsedTemp = +temperature;
+    const parsedTarget = target.toLowerCase();
+
+    if (!parsedTemp && parsedTemp !== 0) {
+        alert ("El valor ingresdo no es valido");
+        return;
+    }
+
+    if(parsedTarget === "celsius") {
+        return ((parsedTemp - 32) * 5) /9;
+    }
+    else if (parsedTarget === 'faranheit') {
+        return (parsedTemp + 9) / 5 + 32;
+    } else {
+        alert("El formato ingresado no es valido");
+    }
+}
