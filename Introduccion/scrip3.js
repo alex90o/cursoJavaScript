@@ -51,6 +51,7 @@ console.log(resultConF(6,8) + 10);
 */
 
 //SCOPE
+/*
  let isValid = false;
 
 function validatePermission (role){
@@ -70,3 +71,36 @@ function validatePermission (role){
 validatePermission("any");
 
 console.log("A nivel Global", isValid);
+*/
+
+/*ejercio 01
+Crear un programa que pida al usuarios que ingrese un numero 
+y le devuelve un mesaje indicando si el numero es positivo, negativo o si es 0.
+*/
+const findNumberType = (number) => {
+    let message = "";
+    const parsedNumber = +number;
+
+    if (!parsedNumber && parsedNumber !== 0){
+        message = "El valor ingresado no es un numero";  
+        return message;
+
+    }
+   
+
+    if (parsedNumber === 0) {
+        message = "El numero ingresado es 0";
+    } else if (parsedNumber > 0) {
+        message = "El numero ingresado es positivo";
+    } else {
+        message = "El numero ingresado es negativo";
+    }
+
+    return message;
+};
+
+const chosenNumber = prompt ("Ingresa un numero");
+
+const response = findNumberType(chosenNumber);
+
+alert(response);
