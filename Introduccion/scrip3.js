@@ -152,7 +152,7 @@ unidad la quiere convertir.
 */
 // C a F (C x 9/5) + 32
 // F a C (F - 32) x 5/9
-
+/*
 const convertTemperature = (temperature, target) => {
     const parsedTemp = +temperature;
     const parsedTarget = target.toLowerCase();
@@ -180,3 +180,26 @@ const response = convertTemperature (temperatura, target);
 if (response !== undefined) {
     alert (`La temperatura en ${target.toLocaleLowerCase()} es ${response} `)
 }
+*/
+/*
+4) Crear un programa para calcular el total se una compra. Para ello, se le
+tiene que pedir al usuario que ingrese el precio de cada producto y, cuando
+que ingrese la palabra 'total' . Devolverle el total de la compra
+
+*/
+
+const calculateTotal = () => {
+    let total = 0;
+    let subTotal;
+    do {
+        subTotal = prompt ("Ingresa el valor del producto");
+        let parsedSubtotal = +subTotal;
+        if (+subTotal) {
+            total += parsedSubtotal;
+        }
+    }while (subTotal.toLowerCase() !== "total");
+
+    return total;
+};
+
+console.log(calculateTotal());
