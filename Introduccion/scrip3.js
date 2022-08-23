@@ -187,7 +187,7 @@ tiene que pedir al usuario que ingrese el precio de cada producto y, cuando
 que ingrese la palabra 'total' . Devolverle el total de la compra
 
 */
-
+/*
 const calculateTotal = () => {
     let total = 0;
     let subTotal;
@@ -207,3 +207,21 @@ const calculateTotal = () => {
 const response = calculateTotal();
 
 alert (response);
+
+*/
+
+// Truthy y Falsy
+
+//FALSY: 0, null, undefined, NaN, '', "", ``, false
+
+console.log(Boolean(false));
+console.log(Boolean(null));
+console.log(Boolean(!!0));
+console.log(Boolean(!!""));
+console.log(Boolean("Hola Mundo"));
+console.log(Boolean(40));
+console.log(!![]);
+console.log(!!{});
+
+Boolean("Hola");
+!!"Hola";
