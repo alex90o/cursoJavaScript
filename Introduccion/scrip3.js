@@ -202,4 +202,8 @@ const calculateTotal = () => {
     return total;
 };
 
-console.log(calculateTotal());
+//console.log(calculateTotal());
+
+const response = calculateTotal();
+
+alert (response);
