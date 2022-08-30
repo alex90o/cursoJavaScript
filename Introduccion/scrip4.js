@@ -96,6 +96,17 @@ console.log(miArray);
 //SPLICE
 console.log(miArray);
 
-miArray.splice(1,2);
+//miArray.splice(1,2);
+console.log(miArray.splice(1,2));
+console.log(miArray);
+
+//SLICE recorta Array
+miArray.push("jorgue");
+miArray.push("juan");
+miArray.push("pedro");
+console.log(miArray);
+const newArray = miArray.slice(1,4);
+
+console.log(newArray);
 
 console.log(miArray);
