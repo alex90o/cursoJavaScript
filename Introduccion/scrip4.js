@@ -28,7 +28,7 @@ console.log(`Ahora en ese Casillero esta Guardada la ${miArray[0]}`);
 */
 
 //Acceder al primer elemento
-
+/*
 const miArray = ["alexis", "juan", "pedro", "marcelo"];
 console.log(miArray);
 const primerElemento = miArray[0];
@@ -52,3 +52,26 @@ const elemento2 = "martina";
 const index2 = miArray.indexOf(elemento2);
 console.log(miArray [index2]);
 console.log(index2);
+*/
+const miArray = ["alexis", "juan", "pedro", "marcelo"];
+
+miArray [1] = "Martina"; // lo mismo que  miArray [miArray.indexOf("juan")] = "Martina";
+
+console.log(miArray);
+
+//Agregar un elemento al final del Array
+
+//push
+miArray.push("jorgue");
+console.log(miArray);
+
+//Remover un elemento del final del array
+//POP
+
+miArray.pop();
+
+console.log(miArray);
+
+const removedElement = miArray.pop();
+console.log(removedElement);
+console.log(miArray);
