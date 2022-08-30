@@ -60,7 +60,7 @@ miArray [1] = "Martina"; // lo mismo que  miArray [miArray.indexOf("juan")] = "M
 console.log(miArray);
 
 //Agregar un elemento al final del Array
-
+/*
 //push
 miArray.push("jorgue");
 console.log(miArray);
@@ -74,4 +74,28 @@ console.log(miArray);
 
 const removedElement = miArray.pop();
 console.log(removedElement);
+console.log(miArray);
+*/
+
+//Agregar un elemento al principio del Array
+
+//Unshift
+
+const newLength = miArray.unshift("jorge");
+console.log(newLength);
+console.log(miArray);
+
+//Remover un elemnto del principio del array
+
+//SHIFT
+
+const removedElement = miArray.shift();
+console.log(removedElement);
+console.log(miArray);
+
+//SPLICE
+console.log(miArray);
+
+miArray.splice(1,2);
+
 console.log(miArray);
