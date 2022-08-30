@@ -3,10 +3,10 @@
 //1 Formas de declarar un Array
 
 //const miArray = [];
-const otroArray = new Array();
+//const otroArray = new Array();
 
 //console.log(miArray,otroArray);
-
+/*
 const miArray = ['Mochila de Alexis', "Cartera de Maraia", "Bolsa de Juan"];
 console.log(miArray);
 
@@ -25,3 +25,30 @@ miArray[0] = "La cartera de Juliana";
 console.log(miArray[0]);
 
 console.log(`Ahora en ese Casillero esta Guardada la ${miArray[0]}`);
+*/
+
+//Acceder al primer elemento
+
+const miArray = ["alexis", "juan", "pedro", "marcelo"];
+console.log(miArray);
+const primerElemento = miArray[0];
+
+console.log(primerElemento);
+
+//Acceder al ultimo
+console.log(miArray [miArray.length - 1]);
+
+//Buscar el indice de un elemento
+
+const elemento = "pedro";
+// metodo indexOf
+
+const index = miArray.indexOf(elemento);
+
+console.log(index);
+
+//elementos que no estan
+const elemento2 = "martina";
+const index2 = miArray.indexOf(elemento2);
+console.log(miArray [index2]);
+console.log(index2);
